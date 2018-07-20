@@ -1,0 +1,25 @@
+{
+  "name": "graphql-schema-parser",
+  "version": "0.0.1",
+  "description": "GraphQL Schema Type Definition Parser",
+  "main": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "parse",
+    "parser",
+    "schema",
+    "type",
+    "definition"
+  ],
+  "author": "A. Stanley",
+  "license": "MIT",
+  "devDependencies": {
+    "graphql": "^14.0.0-rc.2",
+    "rollup": "^0.63.3",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
