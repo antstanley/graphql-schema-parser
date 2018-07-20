@@ -2697,9 +2697,9 @@ function many(lexer, openKind, parseFn, closeKind) {
 
 var index = source => {
   try {
-    console.log(JSON.stringify(parse(source)));
+    return parse(source)
   } catch (error) {
-    console.log(error);
+    throw new Error(error)
   }
 };
 

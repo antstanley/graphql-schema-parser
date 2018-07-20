@@ -9,4 +9,8 @@ const sampleSchema = `
   }
 `
 
-definitionParse(sampleSchema)
+try {
+  console.log(definitionParse(sampleSchema))
+} catch (error) {
+  console.log(error)
+}
